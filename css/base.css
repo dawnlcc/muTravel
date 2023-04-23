@@ -1,0 +1,35 @@
+/* 自定义字体 */
+@font-face {
+    font-family: "PingFangSCRegular";
+    src: url('../fonts/PingFangSCRegular.ttf') format('truetype');
+}
+/* 字体图标 */
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.ttf') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-family: "PingFangSCRegular";
+}
+
+.center-wrap {
+  width: 1152px;
+  min-width: 1152px;
+  margin: 0 auto;
+}
+.clearfix {
+  overflow: hidden;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
